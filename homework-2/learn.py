@@ -59,3 +59,49 @@ print(youtube)"""
             'videoCount': '708'}}]}
 
 
+{'kind': 'youtube#videoListResponse',
+ 'etag': 'Jj1ZqRJVl4u-5YP5OYSC0ZjmZ1I',
+ 'items':
+     [{'kind':'youtube#video',
+       'etag': '38NDLbXHldNlHxy8st1TPByNRbE',
+       'id': 'AWX4JnAnjBE',
+       'snippet':
+           {'publishedAt': '2013-11-13T07:02:16Z',
+            'channelId': 'UC-OVMPlMA3-YCIeg4z5z23A',
+            'title': 'GIL в Python: зачем он нужен и как с этим жить',
+            'description': 'Григорий Петров\n12 сентября 2013\nMoscow Django Meetup № 14\n\nВ своем докладе Григорий проведет краткий экскурс в историю потоков и расскажет, зачем был создан GIL. Будут рассмотрены практические вопросы многопоточности в Python и способы работы с GIL.\nСлайды выступления: http://www.moscowpython.ru/meetup/14/gil-and-python-why/',
+            'thumbnails':
+                {'default':
+                     {'url': 'https://i.ytimg.com/vi/AWX4JnAnjBE/default.jpg',
+                      'width': 120,
+                      'height': 90},
+                 'medium':
+                     {'url': 'https://i.ytimg.com/vi/AWX4JnAnjBE/mqdefault.jpg',
+                      'width': 320,
+                      'height': 180},
+                 'high':
+                     {'url': 'https://i.ytimg.com/vi/AWX4JnAnjBE/hqdefault.jpg',
+                      'width': 480,
+                      'height': 360},
+                 'standard':
+                     {'url': 'https://i.ytimg.com/vi/AWX4JnAnjBE/sddefault.jpg',
+                      'width': 640,
+                      'height': 480},
+                 'maxres':
+                     {'url': 'https://i.ytimg.com/vi/AWX4JnAnjBE/maxresdefault.jpg',
+                      'width': 1280,
+                      'height': 720}},
+            'channelTitle': 'MoscowPython',
+            'tags': ['Moscow Django Meetup', 'python', 'moscowdjango'],
+            'categoryId': '28',
+            'liveBroadcastContent': 'none',
+            'localized':
+                {'title': 'GIL в Python: зачем он нужен и как с этим жить',
+                 'description': 'Григорий Петров\n12 сентября 2013\nMoscow Django Meetup № 14\n\nВ своем докладе Григорий проведет краткий экскурс в историю потоков и расскажет, зачем был создан GIL. Будут рассмотрены практические вопросы многопоточности в Python и способы работы с GIL.\nСлайды выступления: http://www.moscowpython.ru/meetup/14/gil-and-python-why/'}},
+       'statistics':
+           {'viewCount': '54836',
+            'likeCount': '2332',
+            'favoriteCount': '0',
+            'commentCount': '54'}}],
+ 'pageInfo': {'totalResults': 1, 'resultsPerPage': 1}}
+
