@@ -1,0 +1,206 @@
+"""
+
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "FG3gaFGtv-j8Vs3xyRwYDJ-ivk4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "_vRaQe6g_veGVfjkJWLGMAsBBD4",
+      "id": "feg3DYywNys",
+      "contentDetails": {
+        "duration": "PT6M54S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "539",
+        "likeCount": "7",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "JKwIQVY2oyZBDOAPmu9b0Fy4ZjA",
+      "id": "MtWXwMCAApY",
+      "contentDetails": {
+        "duration": "PT28M49S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1705",
+        "likeCount": "34",
+        "favoriteCount": "0",
+        "commentCount": "4"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xTe2jOIisOW7y2ekH0853Y6i27w",
+      "id": "nApYYXYL9qA",
+      "contentDetails": {
+        "duration": "PT42M9S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2036",
+        "likeCount": "79",
+        "favoriteCount": "0",
+        "commentCount": "0"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "IY84CQaLMJJEFHkoMPfWYLXvcng",
+      "id": "cUGyMzWQcGM",
+      "contentDetails": {
+        "duration": "PT32M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "2806",
+        "likeCount": "82",
+        "favoriteCount": "0",
+        "commentCount": "16"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 4
+  }
+}
+
+
+
+
+
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "VqKqYd90aGdgpoZcZbwqyGwGhOE",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "aeK1xsLb4K0vW5N1nvPpZl2SmWw",
+      "id": "PLv_zOGKKxVpj-n2qLkEM2Hj96LO6uqgQw",
+      "snippet": {
+        "publishedAt": "2023-03-29T22:48:53Z",
+        "channelId": "UC-OVMPlMA3-YCIeg4z5z23A",
+        "title": "Moscow Python Meetup №81",
+        "description": "Видео с Moscow Python Meetup №81 (23.03.2023)\nслайды: https://moscowpython.ru/meetup/81/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/feg3DYywNys/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "MoscowPython",
+        "localized": {
+          "title": "Moscow Python Meetup №81",
+          "description": "Видео с Moscow Python Meetup №81 (23.03.2023)\nслайды: https://moscowpython.ru/meetup/81/"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 4
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "KIpfSYLFDUJIRlsFAHCKSo29f0c",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "Poczykou137XQAuZSPleKLV8ZHc",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy41NkI0NEY2RDEwNTU3Q0M2",
+      "contentDetails": {
+        "videoId": "feg3DYywNys",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "gUwzWYM6VWIrrkmxKVcmdZL9bNE",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy4yODlGNEE0NkRGMEEzMEQy",
+      "contentDetails": {
+        "videoId": "MtWXwMCAApY",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "6LiN_MofK5nqaJ_Q0Zntke6U9N8",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy4wMTcyMDhGQUE4NTIzM0Y5",
+      "contentDetails": {
+        "videoId": "nApYYXYL9qA",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "btyHRnZF4Z8EYcNd-XVP1N97mek",
+      "id": "UEx2X3pPR0tLeFZwai1uMnFMa0VNMkhqOTZMTzZ1cWdRdy41MjE1MkI0OTQ2QzJGNzNG",
+      "contentDetails": {
+        "videoId": "cUGyMzWQcGM",
+        "videoPublishedAt": "2023-04-03T14:24:45Z"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 4,
+    "resultsPerPage": 50
+  }
+}
+"""
