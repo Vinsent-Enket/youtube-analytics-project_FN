@@ -46,3 +46,7 @@ class PLVideo(Video):
         self.play_list = self.youtube.playlists().list(id=id_playlist, part='contentDetails,snippet',
                                                   maxResults=50, ).execute()
         self.play_list_id = self.play_list['items'][0]['id']
+
+broken_video = Video('broken_video_id')
+assert broken_video.title is None
+assert broken_video.like_count is None
