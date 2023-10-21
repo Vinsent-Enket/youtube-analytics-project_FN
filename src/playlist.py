@@ -20,9 +20,20 @@ class PlayList(APIMixin):
         self.title = self.playlists['items'][0]['snippet']['title']
         self.url = 'https://www.youtube.com/playlist?list=' + self.playlists['items'][0]['id'] #как иначе вытащить юрлку я не понял, возможно через другой запрос, но так больше квот тратится
         self.playlist_videos = self.youtube.playlistItems().list(playlistId=playlist_id, part='contentDetails',maxResults=50).execute()
-        video_ids: list[str] = [video['contentDetails']['videoId'] for video in self.playlist_videos['items']]
-        video_response = self.youtube.videos().list(part='contentDetails,statistics', id=','.join(video_ids)).execute()
+        self.video_ids: list[str] = [video['contentDetails']['videoId'] for video in self.playlist_videos['items']]
+        self.video_response = self.youtube.videos().list(part='contentDetails,statistics', id=','.join(self.video_ids)).execute()
 
+
+        self.calk_dur(self.video_response)
+
+    @property
+    def total_duration(self):
+        return self.__total_duration
+
+    def show_best_video(self):
+        return self.top_url
+
+    def calk_dur(self, video_response):
         self.likes = 0
         self.top_url = ''
         for video in video_response['items']:
@@ -32,10 +43,3 @@ class PlayList(APIMixin):
             iso_8601_duration = video['contentDetails']['duration']
             duration = isodate.parse_duration(iso_8601_duration)
             self.__total_duration += duration
-
-    @property
-    def total_duration(self):
-        return self.__total_duration
-
-    def show_best_video(self):
-        return self.top_url
