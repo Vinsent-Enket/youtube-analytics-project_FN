@@ -9,7 +9,7 @@ class Video(APIMixin):
         self.video = self.youtube.videos().list(id=id_video, part='snippet,statistics').execute()
         try:
             self.id = self.video['items'][0]['id']
-        except Exception:
+        except IndexError:
             print("ОШИБКА")
             self.id = id_video
             self.title = None
@@ -34,12 +34,6 @@ class Video(APIMixin):
 
 
 class PLVideo(Video):
-    """
-    Откровенно говоря не понял, а зачем id видео и id playlist если нам нужна инфа именно по видео?
-    Да и судя по метод принимает лишь 1 аргумент, один id
-    И да, хоть и стоит метод videos он исправно дает всю нужную инфу
-    Но код работает
-    """
 
     def __init__(self, id_video: str, id_playlist):
         super().__init__(id_video)
